@@ -14,10 +14,10 @@
         <div class="content">
             <div class="text">
                 <img src="assets/logo-green.png" alt="Todos Conectadas Logo" class="logo">
-                <h1>Bienvenido a Todos Conectados</h1>
+                <h1>Bienvenido a Planet</h1>
                 <p>Please copy the following URL to proceed:</p>
                 <div class="url-container">
-                    <input type="text" value="https://planet.gt" id="url" readonly>
+                    <input type="text" value="http://192.168.39.253" id="url" readonly>
                     <button onclick="copyURL()">
                         <img src="assets/clipboard.png" alt="Copy" class="clipboard-icon">
                     </button>
@@ -31,7 +31,6 @@
             urlField.select();
             urlField.setSelectionRange(0, 99999);
             document.execCommand("copy");
-            alert("URL copied to clipboard: " + urlField.value);
         }
     </script>
 </body>

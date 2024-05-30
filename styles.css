@@ -14,7 +14,7 @@ body, html {
 
 .header {
   position: relative;
-  height: 40vh;
+  height: 30vh;
   background: url('assets/hero-background.png') no-repeat center top;
   background-size: cover;
 }
