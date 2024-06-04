@@ -78,32 +78,17 @@ body, html {
   margin-top: 20px;
 }
 
-input[type="text"] {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  width: 80%;
-  max-width: 300px;
-  text-align: center;
-  margin-right: 10px;
-}
-
-button {
-  padding: 10px;
-  border: none;
+.url-link {
+  padding: 10px 20px;
   border-radius: 5px;
   background-color: #C1FF72;
   color: #035AA6;
-  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-button:hover {
+.url-link:hover {
   background-color: #AECCF2;
-}
-
-.clipboard-icon {
-  width: 20px;
-  height: 20px;
 }
 
 @media screen and (max-width: 768px) {

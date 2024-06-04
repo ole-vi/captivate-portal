@@ -21,23 +21,12 @@
             <div class="text">
                 <img src="assets/logo-coop-white.png" alt="co-op logo Todos Conectadas Logo" class="logo">
                 <img src="assets/logo-white.png" alt="OLE Todos Conectadas Logo" class="logo">
-                <p>Por favor copie el siguiente URL para continuar:</p>
+                <p>Por favor haga clic en el siguiente enlace para continuar:</p>
                 <div class="url-container">
-                    <input type="text" value="http://192.168.39.253" id="url" readonly>
-                    <button onclick="copyURL()">
-                        <img src="assets/clipboard.png" alt="Copy" class="clipboard-icon">
-                    </button>
+                    <a href="http://192.168.39.253" target="_blank" class="url-link">http://192.168.39.253</a>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        function copyURL() {
-            var urlField = document.getElementById("url");
-            urlField.select();
-            urlField.setSelectionRange(0, 99999);
-            document.execCommand("copy");
-        }
-    </script>
 </body>
 </html>
